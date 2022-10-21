@@ -1,0 +1,58 @@
+.inner {
+  height: 731px;
+
+  background-color: rgb(192, 185, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  background-image: linear-gradient(
+    to bottom,
+    #9b2c40,
+    #490002,
+    #372215,
+    #19231a
+  );
+}
+.App {
+  position: relative;
+}
+.App .btn1 {
+  position: absolute;
+  bottom: 50px;
+}
+.App .btn2 {
+  position: absolute;
+  bottom: 100px;
+}
+img {
+  background-size: cover;
+  height: 80%;
+  width: 950px;
+}.fa-chevron-right,.fa-chevron-left{
+ font-size: 40px;
+ color: rgb(53, 50, 50);
+}.fa-chevron-right{
+  position: absolute;
+  right: 246px;
+}
+.fa-chevron-left{
+  position: absolute;
+  left: 246px;
+}
+.spans{
+width: 400px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center;
+align-items: center;
+
+}span{
+  width: 36px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(53, 50, 50);
+}
